@@ -1,13 +1,13 @@
 public class Actions {
-     private String name;
-     private int amount ;
-     private int price;
+    private String name;
+    private int amount ;
+    private int price;
 
-public Actions(String name,int amount,int price){
-    this.name=name;
-    this.amount=amount;
-    this.price=price;
-}
+    public Actions(String name,int amount,int price){
+        this.name=name;
+        this.amount=amount;
+        this.price=price;
+    }
 
 
 
@@ -46,4 +46,3 @@ public Actions(String name,int amount,int price){
                 '}';
     }
 }
-
