@@ -1,9 +1,10 @@
-public class Actions {
+class Action {
+
     private String name;
     private int amount ;
     private int price;
 
-    public Actions(String name,int amount,int price){
+    public Action(String name,int amount,int price){
         this.name=name;
         this.amount=amount;
         this.price=price;
@@ -45,4 +46,6 @@ public class Actions {
                 ", price=" + price +
                 '}';
     }
+
+
 }

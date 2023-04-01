@@ -1,19 +1,30 @@
+import javax.swing.plaf.basic.BasicSliderUI;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Person {
     private String names;
-    private Actions target;
+
+    private List<Action> target = new ArrayList();
 
 
 
-    public Person(String names, Actions target){
+    public Person(String names, List<Action> target){
         this.names=names;
-        this.target=target;
+        this.target= (List<Action>) target;
+        Action ArrayList;
 
+   }
+
+
+
+
+    public void setTarget(List<Action> target) {
+        this.target = target;
     }
 
-
-
-
-    public Actions getTarget() {
+    public List<Action> getTarget() {
         return target;
     }
 
@@ -25,9 +36,7 @@ public class Person {
         this.names = names;
     }
 
-    public void setTarget(Actions target) {
-        this.target = target;
-    }
+
 
     @Override
     public String toString() {
