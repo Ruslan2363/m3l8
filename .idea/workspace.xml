@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ac3a1d-0daa-4df1-b9a1-88a0649f8651" name="Changes" comment="Заповнив дані">
-      <change afterPath="$PROJECT_DIR$/src/PriceChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+    <list default="true" id="b5ac3a1d-0daa-4df1-b9a1-88a0649f8651" name="Changes" comment="Добавив потік для зміни ціни в акції">
+      <change beforePath="$PROJECT_DIR$/src/PriceChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriceChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678358380091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавив потік для зміни ціни в акції">
+      <created>1680358763928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680358763928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Заповнив дані" />
-    <option name="LAST_COMMIT_MESSAGE" value="Заповнив дані" />
+    <MESSAGE value="Добавив потік для зміни ціни в акції" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавив потік для зміни ціни в акції" />
   </component>
 </project>

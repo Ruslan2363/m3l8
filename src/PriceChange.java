@@ -26,7 +26,7 @@ public class PriceChange extends Thread {
         for (int i = 0; i < 1; i++) {
             AL.add(number);
         }
-
+ new Thread().start();
         try { Thread.sleep(30000);
 
         } catch (InterruptedException e) {
