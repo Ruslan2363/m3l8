@@ -4,44 +4,43 @@ import java.util.Collections;
 import java.util.List;
 
 public class Person {
-    private String names;
-
-    private List<Action> target = new ArrayList();
-
+    private String name;
+     private List<Action> target = new ArrayList();
 
 
-    public Person(String names, List<Action> target){
-        this.names=names;
+
+    public Person(String name, List<Action> target){
+        this.name=name;
         this.target= (List<Action>) target;
-        Action ArrayList;
+
 
    }
 
 
 
 
-    public void setTarget(List<Action> target) {
-        this.target = target;
+    public  void setTarget(Action  target) {
+        this.target = (List<Action>) target;
     }
 
-    public List<Action> getTarget() {
-        return target;
+    public Action getTarget() {
+        return (Action) target;
     }
 
-    public String getNames() {
-        return names;
+    public String getName() {
+        return name;
     }
 
-    public void setNames(String names) {
-        this.names = names;
+    public void setName(String name) {
+        this.name = name;
     }
 
-
+    List<Action > actions = new ArrayList();
 
     @Override
     public String toString() {
         return "Person{" +
-                "names='" + names + '\'' +
+                "name='" + name + '\'' +
                 ", target=" + target +
                 '}';
     }
