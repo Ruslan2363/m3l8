@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ac3a1d-0daa-4df1-b9a1-88a0649f8651" name="Changes" comment="Добавив потік для зміни ціни в акції">
-      <change afterPath="$PROJECT_DIR$/src/broker.java" afterDir="false" />
+    <list default="true" id="b5ac3a1d-0daa-4df1-b9a1-88a0649f8651" name="Changes" comment="Переробив потік PriceChange та закінчив клас Person">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PriceChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriceChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/broker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/broker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680381232156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Переробив потік PriceChange та закінчив клас Person">
+      <created>1682607272958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682607272958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +109,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Заповнив дані" />
     <MESSAGE value="Добавив потік для зміни ціни в акції" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавив потік для зміни ціни в акції" />
+    <MESSAGE value="Переробив потік PriceChange та закінчив клас Person" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переробив потік PriceChange та закінчив клас Person" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
