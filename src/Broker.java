@@ -2,7 +2,7 @@ import java.time.LocalTime;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-public class broker extends Thread {
+public class Broker extends Thread {
     public static final Object LOCK = new Object();
     private Map<String, Integer> Actions;
     private List<Person> myList;

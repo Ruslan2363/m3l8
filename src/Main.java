@@ -34,7 +34,7 @@ public class Main {
         int durationInMinutes = 10;
         PriceChange mt1 = new PriceChange();
         mt1.startThread1();
-        broker mt2 =new broker();
+        Broker mt2 =new Broker();
         mt2.startThread2();
     }
 }
