@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ac3a1d-0daa-4df1-b9a1-88a0649f8651" name="Changes" comment="Намагався здійснити покпку та переробив змінну цінни акції">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b5ac3a1d-0daa-4df1-b9a1-88a0649f8651" name="Changes" comment="change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684699008518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change">
+      <created>1691488900581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691488900581</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +119,8 @@
     <MESSAGE value="Добавив потік для зміни ціни в акції" />
     <MESSAGE value="Переробив потік PriceChange та закінчив клас Person" />
     <MESSAGE value="Намагався здійснити покпку та переробив змінну цінни акції" />
-    <option name="LAST_COMMIT_MESSAGE" value="Намагався здійснити покпку та переробив змінну цінни акції" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
